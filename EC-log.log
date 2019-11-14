@@ -1,0 +1,260 @@
+2019-10-06 19:31:51 ERROR Main:18 - Error, not found parameter 'type'
+2019-10-06 19:49:21 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-06 19:49:33 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-06 19:49:39 INFO  RDFFileManager:153 - Service repository created in: 5594 ms with 908 EDs and 0 EPs.
+2019-10-06 19:49:39 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-06 19:49:39 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-06 22:59:43 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-06 22:59:49 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-06 22:59:54 INFO  RDFFileManager:153 - Service repository created in: 5595 ms with 908 EDs and 0 EPs.
+2019-10-06 22:59:54 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-06 22:59:54 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-06 23:05:09 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-06 23:05:14 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-06 23:05:19 INFO  RDFFileManager:153 - Service repository created in: 5559 ms with 908 EDs and 0 EPs.
+2019-10-06 23:05:19 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-06 23:05:19 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-06 23:15:06 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-06 23:15:11 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-06 23:15:17 INFO  RDFFileManager:153 - Service repository created in: 5306 ms with 908 EDs and 0 EPs.
+2019-10-06 23:15:17 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-06 23:15:17 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-06 23:39:44 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-06 23:39:50 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-06 23:39:56 INFO  RDFFileManager:153 - Service repository created in: 5856 ms with 908 EDs and 0 EPs.
+2019-10-06 23:39:56 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-06 23:39:56 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-07 17:57:39 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-07 17:57:48 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-07 17:57:54 INFO  RDFFileManager:153 - Service repository created in: 5639 ms with 908 EDs and 0 EPs.
+2019-10-07 17:57:54 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-07 17:57:54 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-07 18:02:20 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-07 18:02:26 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-07 18:02:33 INFO  RDFFileManager:153 - Service repository created in: 6511 ms with 908 EDs and 0 EPs.
+2019-10-07 18:02:33 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-07 18:02:33 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-07 18:25:50 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-07 18:25:55 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-07 18:26:01 INFO  RDFFileManager:153 - Service repository created in: 5594 ms with 908 EDs and 0 EPs.
+2019-10-07 18:26:01 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-07 18:26:01 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-07 18:37:43 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-07 18:37:55 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-07 18:38:01 INFO  RDFFileManager:153 - Service repository created in: 6249 ms with 908 EDs and 0 EPs.
+2019-10-07 18:38:01 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-07 18:38:01 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-07 18:44:20 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-07 18:44:26 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-07 18:44:32 INFO  RDFFileManager:153 - Service repository created in: 6104 ms with 908 EDs and 0 EPs.
+2019-10-07 18:44:32 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-07 18:44:32 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-07 18:46:46 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-07 18:46:58 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-07 18:47:03 INFO  RDFFileManager:153 - Service repository created in: 5885 ms with 908 EDs and 0 EPs.
+2019-10-07 18:47:03 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-07 18:47:03 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-07 18:50:21 ERROR AarhusParkingStream:46 - Unexpected thread termination
+2019-10-07 18:55:10 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-07 18:55:15 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-07 18:55:21 INFO  RDFFileManager:153 - Service repository created in: 5612 ms with 908 EDs and 0 EPs.
+2019-10-07 18:55:21 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-07 18:55:21 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-07 18:55:45 ERROR AarhusParkingStream:46 - Unexpected thread termination
+2019-10-07 19:02:09 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-07 19:02:21 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-07 19:02:27 INFO  RDFFileManager:153 - Service repository created in: 5534 ms with 908 EDs and 0 EPs.
+2019-10-07 19:02:27 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-07 19:02:27 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-08 17:48:18 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-08 17:48:23 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-08 17:48:29 INFO  RDFFileManager:153 - Service repository created in: 5616 ms with 908 EDs and 0 EPs.
+2019-10-08 17:48:29 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-08 17:48:29 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-08 17:50:20 ERROR AarhusParkingStream:46 - Unexpected thread termination
+2019-10-08 17:51:18 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-08 17:51:28 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-08 17:51:34 INFO  RDFFileManager:153 - Service repository created in: 5532 ms with 908 EDs and 0 EPs.
+2019-10-08 17:51:34 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-08 17:51:34 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-08 18:01:29 ERROR AarhusParkingStream:46 - Unexpected thread termination
+2019-10-08 18:02:26 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-08 18:02:37 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-08 18:02:42 INFO  RDFFileManager:153 - Service repository created in: 5426 ms with 908 EDs and 0 EPs.
+2019-10-08 18:02:42 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-08 18:02:42 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-08 18:04:41 ERROR AarhusParkingStream:46 - Unexpected thread termination
+2019-10-08 18:06:11 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-08 18:06:16 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-08 18:06:22 INFO  RDFFileManager:153 - Service repository created in: 5381 ms with 908 EDs and 0 EPs.
+2019-10-08 18:06:22 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-08 18:06:22 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-08 18:30:57 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-08 18:31:03 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-08 18:31:09 INFO  RDFFileManager:153 - Service repository created in: 5956 ms with 908 EDs and 0 EPs.
+2019-10-08 18:31:09 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-08 18:31:09 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-08 19:44:22 ERROR AarhusParkingStream:46 - Unexpected thread termination
+2019-10-08 19:57:09 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-08 19:57:14 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-08 19:57:19 INFO  RDFFileManager:153 - Service repository created in: 5552 ms with 908 EDs and 0 EPs.
+2019-10-08 19:57:19 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-08 19:57:19 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-10 18:59:10 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-10 18:59:16 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-10 18:59:22 INFO  RDFFileManager:153 - Service repository created in: 5934 ms with 908 EDs and 0 EPs.
+2019-10-10 18:59:22 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-10 18:59:22 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-10 19:02:27 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-10 19:02:33 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-10 19:02:39 INFO  RDFFileManager:153 - Service repository created in: 5812 ms with 908 EDs and 0 EPs.
+2019-10-10 19:02:39 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-10 19:02:39 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-10 19:03:24 ERROR AarhusParkingStream:46 - Unexpected thread termination
+2019-10-10 19:19:18 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-10 19:19:30 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-10 19:19:35 INFO  RDFFileManager:153 - Service repository created in: 5447 ms with 908 EDs and 0 EPs.
+2019-10-10 19:19:35 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-10 19:19:35 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-10 19:21:41 ERROR AarhusParkingStream:46 - Unexpected thread termination
+2019-10-10 19:21:52 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-10 19:21:57 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-10 19:22:03 INFO  RDFFileManager:153 - Service repository created in: 5269 ms with 908 EDs and 0 EPs.
+2019-10-10 19:22:03 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-10 19:22:03 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-10 19:22:49 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-10 19:22:55 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-10 19:23:00 INFO  RDFFileManager:153 - Service repository created in: 5458 ms with 908 EDs and 0 EPs.
+2019-10-10 19:23:00 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-10 19:23:00 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-10 19:45:38 ERROR AarhusParkingStream:46 - Unexpected thread termination
+2019-10-10 19:52:55 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-10 19:53:00 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-10 19:53:06 INFO  RDFFileManager:153 - Service repository created in: 5521 ms with 908 EDs and 0 EPs.
+2019-10-10 19:53:06 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-10 19:53:06 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-10 19:57:49 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-10 19:57:54 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-10 19:58:00 INFO  RDFFileManager:153 - Service repository created in: 5381 ms with 908 EDs and 0 EPs.
+2019-10-10 19:58:00 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-10 19:58:00 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-10 20:01:02 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-10 20:01:14 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-10 20:01:19 INFO  RDFFileManager:153 - Service repository created in: 5501 ms with 908 EDs and 0 EPs.
+2019-10-10 20:01:19 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-10 20:01:19 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-10 20:02:28 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-10 20:02:34 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-10 20:02:39 INFO  RDFFileManager:153 - Service repository created in: 5617 ms with 908 EDs and 0 EPs.
+2019-10-10 20:02:39 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-10 20:02:39 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-10 20:16:10 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-10 20:16:15 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-10 20:16:21 INFO  RDFFileManager:153 - Service repository created in: 6011 ms with 908 EDs and 0 EPs.
+2019-10-10 20:16:21 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-10 20:16:21 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-18 18:57:01 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-18 18:57:08 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-18 18:57:22 INFO  RDFFileManager:153 - Service repository created in: 13266 ms with 908 EDs and 0 EPs.
+2019-10-18 18:57:22 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-18 18:57:22 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-18 19:11:18 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-18 19:11:23 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-18 19:11:29 INFO  RDFFileManager:153 - Service repository created in: 5477 ms with 908 EDs and 0 EPs.
+2019-10-18 19:11:29 INFO  AarhusWeatherStream:27 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusWeatherData0
+2019-10-18 19:11:29 INFO  AarhusTrafficStream:93 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505
+2019-10-18 19:13:09 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-18 19:13:22 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-18 19:13:28 INFO  RDFFileManager:153 - Service repository created in: 6013 ms with 908 EDs and 0 EPs.
+2019-10-18 19:13:28 INFO  AarhusWeatherStream:27 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusWeatherData0
+2019-10-18 19:13:28 INFO  AarhusTrafficStream:93 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505
+2019-10-18 19:17:13 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-18 19:17:24 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-18 19:17:30 INFO  RDFFileManager:153 - Service repository created in: 5646 ms with 908 EDs and 0 EPs.
+2019-10-18 19:17:30 INFO  AarhusWeatherStream:27 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusWeatherData0
+2019-10-18 19:17:30 INFO  AarhusTrafficStream:93 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505
+2019-10-18 19:19:54 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-18 19:19:59 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-18 19:20:05 INFO  RDFFileManager:153 - Service repository created in: 5699 ms with 908 EDs and 0 EPs.
+2019-10-18 19:20:05 INFO  AarhusWeatherStream:27 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusWeatherData0
+2019-10-18 19:20:05 INFO  AarhusTrafficStream:93 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505
+2019-10-18 19:25:32 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-18 19:25:43 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-18 19:25:49 INFO  RDFFileManager:153 - Service repository created in: 5673 ms with 908 EDs and 0 EPs.
+2019-10-18 19:25:49 INFO  AarhusWeatherStream:27 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusWeatherData0
+2019-10-18 19:25:49 INFO  AarhusTrafficStream:93 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505
+2019-10-18 19:48:22 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-18 19:48:33 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-18 19:48:39 INFO  RDFFileManager:153 - Service repository created in: 5478 ms with 908 EDs and 0 EPs.
+2019-10-18 19:48:39 INFO  AarhusWeatherStream:27 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusWeatherData0
+2019-10-18 19:48:39 INFO  AarhusTrafficStream:93 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505
+2019-10-18 20:00:52 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-18 20:00:57 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-18 20:01:04 INFO  RDFFileManager:153 - Service repository created in: 6488 ms with 908 EDs and 0 EPs.
+2019-10-18 20:01:04 INFO  AarhusWeatherStream:27 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusWeatherData0
+2019-10-18 20:01:04 INFO  AarhusTrafficStream:93 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505
+2019-10-18 20:03:39 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-18 20:03:51 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-18 20:03:56 INFO  RDFFileManager:153 - Service repository created in: 5603 ms with 908 EDs and 0 EPs.
+2019-10-18 20:03:56 INFO  AarhusWeatherStream:27 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusWeatherData0
+2019-10-18 20:03:56 INFO  AarhusTrafficStream:93 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505
+2019-10-18 20:09:55 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-18 20:10:07 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-18 20:10:12 INFO  RDFFileManager:153 - Service repository created in: 5489 ms with 908 EDs and 0 EPs.
+2019-10-18 20:10:12 INFO  AarhusWeatherStream:27 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusWeatherData0
+2019-10-18 20:10:12 INFO  AarhusTrafficStream:93 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505
+2019-10-18 20:11:55 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-18 20:12:00 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-18 20:12:05 INFO  RDFFileManager:153 - Service repository created in: 5312 ms with 908 EDs and 0 EPs.
+2019-10-18 20:12:05 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-18 20:12:06 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-25 17:23:25 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-25 17:23:32 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-25 17:23:38 INFO  RDFFileManager:153 - Service repository created in: 6223 ms with 908 EDs and 0 EPs.
+2019-10-25 17:23:38 INFO  AarhusParkingStream:30 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusParkingDataKALKVAERKSVEJ
+2019-10-25 17:23:38 INFO  LocationStream:37 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#UserLocationService
+2019-10-26 10:17:01 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-26 10:17:13 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-26 10:17:19 INFO  RDFFileManager:153 - Service repository created in: 6203 ms with 908 EDs and 0 EPs.
+2019-10-26 10:17:19 INFO  AarhusWeatherStream:27 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusWeatherData0
+2019-10-26 10:17:19 INFO  AarhusTrafficStream:93 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505
+2019-10-26 10:26:00 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-26 10:26:06 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-26 10:26:12 INFO  RDFFileManager:153 - Service repository created in: 5467 ms with 908 EDs and 0 EPs.
+2019-10-26 10:26:12 INFO  AarhusWeatherStream:27 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusWeatherData0
+2019-10-26 10:26:12 INFO  AarhusTrafficStream:93 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505
+2019-10-26 11:03:30 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-26 11:03:43 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-26 11:03:50 INFO  RDFFileManager:153 - Service repository created in: 7102 ms with 908 EDs and 0 EPs.
+2019-10-26 11:03:50 INFO  AarhusWeatherStream:27 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusWeatherData0
+2019-10-26 11:03:50 INFO  AarhusTrafficStream:93 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505
+2019-10-26 11:05:58 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-26 11:06:03 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-26 11:06:09 INFO  RDFFileManager:153 - Service repository created in: 5649 ms with 908 EDs and 0 EPs.
+2019-10-26 11:06:09 INFO  AarhusWeatherStream:27 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusWeatherData0
+2019-10-26 11:06:09 INFO  AarhusTrafficStream:93 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505
+2019-10-28 16:55:06 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-28 16:55:12 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-28 16:55:18 INFO  RDFFileManager:153 - Service repository created in: 5936 ms with 908 EDs and 0 EPs.
+2019-10-28 16:55:18 INFO  AarhusWeatherStream:27 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusWeatherData0
+2019-10-28 16:55:18 INFO  AarhusTrafficStream:93 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505
+2019-10-28 17:30:44 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-28 17:30:49 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-28 17:30:54 INFO  RDFFileManager:153 - Service repository created in: 5343 ms with 908 EDs and 0 EPs.
+2019-10-28 17:30:54 INFO  AarhusWeatherStream:27 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusWeatherData0
+2019-10-28 17:30:55 INFO  AarhusTrafficStream:93 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505
+2019-10-28 17:31:44 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-28 17:31:49 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-28 17:31:55 INFO  RDFFileManager:153 - Service repository created in: 5638 ms with 908 EDs and 0 EPs.
+2019-10-28 17:31:55 INFO  AarhusWeatherStream:27 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusWeatherData0
+2019-10-28 17:31:55 INFO  AarhusTrafficStream:93 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505
+2019-10-28 18:30:42 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-28 18:30:47 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-28 18:30:53 INFO  RDFFileManager:153 - Service repository created in: 5575 ms with 908 EDs and 0 EPs.
+2019-10-28 18:30:53 INFO  AarhusWeatherStream:27 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusWeatherData0
+2019-10-28 18:30:53 INFO  AarhusTrafficStream:93 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505
+2019-10-29 18:33:39 INFO  EPServiceProviderImpl:367 - Initializing engine URI 'default' version 4.2.0
+2019-10-29 18:33:45 INFO  RDFFileManager:121 - Extracting service repository.
+2019-10-29 18:33:51 INFO  RDFFileManager:153 - Service repository created in: 5713 ms with 908 EDs and 0 EPs.
+2019-10-29 18:33:51 INFO  AarhusWeatherStream:27 - Starting sensor stream: (port) 5555 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusWeatherData0
+2019-10-29 18:33:51 INFO  AarhusTrafficStream:93 - Starting sensor stream: (port) 5556 - (uri) http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505
