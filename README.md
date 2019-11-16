@@ -1,12 +1,12 @@
 # Benchmark
 CityBench is a java-based benchmarking toolset for RSP engines, currently CQELS and C-SPARQL are supported.
 
-##Prerequisite
+## Prerequisite
 * JVM 1.7
 * Webserver of your choice (JBoss,Tomcat etc.)
 * Java IDE (for debugging and extensions)
 
-##Folders & Files
+## Folders & Files
 1. *cqels_query*: sample queries in CQELS syntax;
 2. *csparql_query*: sample queries in C-SPARQL syntax;
 3. *dataset*: background knowledge base, mostly sensor service repositories;
@@ -18,12 +18,12 @@ CityBench is a java-based benchmarking toolset for RSP engines, currently CQELS 
 8. *EC-log*: logger file output;
 9. *citybench.properties*: configuration file loaded by CityBench.
 
-##To run
+## To run
 1. Download all resources and source code
 2. Import to your Java IDE and run CityBench.java Or
 3. Use "java -jar" command to execute the CityBench.jar
 
-##Configuration file
+## Configuration file
 * dataset = dataset/[your_sensor_repository_file]  // tell CityBench where to look for static background knowledge.
 * ontology = [your_ontology_folder] // tell CityBench where to look for ontologies used.
 * streams = [your_streams_folder] // tell CityBench where to look for raw data to simulate sensor streams.
@@ -34,7 +34,7 @@ CityBench is a java-based benchmarking toolset for RSP engines, currently CQELS 
 
 // Normally if you use the downloaded resources as they are, you would not need to change the default content in the configuration file. The exception is the dataset property: you might want to change the default sensor repositories and use a different repository file (e.g., dataset/simrepo-5-10.n3) in order to test the performance of the cqels engine with different KB sizes loaded
 
-##Program Parameters
+## Program Parameters
 Acceptable params: 
 * rates = (double)x, // sensor stream acceleration rate (based on real world sensor observation intervals)
 * queryDuplicates = (int)y, // number of duplicates to run concurrently
@@ -50,3 +50,11 @@ engine, start and end dates are  mandatory.
 Some C-sparql queries needs loading static knowledge bases, those queries contains clauses like " FROM <http://127.0.0.1:9000/WebGlCity/RDF/SensorRepository.rdf> ".
 
 To load such RDF files, deploy the rdf files under "dataset/csparql_web_server/" on your local web server and make sure they are accessible from the url specified in the clause (you can change the url according to your web server configuration).
+
+
+## Parameters for rdfstream2flink
+* type: Runner (R) or Generator (G).
+* query: Name query.
+* port: port base for emulate sensors.
+* useTimeStamp: flag that define us of Time (true or false).
+* out: path of out directory.
