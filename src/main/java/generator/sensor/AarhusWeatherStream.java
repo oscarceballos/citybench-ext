@@ -17,8 +17,7 @@ import com.hp.hpl.jena.rdf.model.Resource;
 
 public class AarhusWeatherStream extends Sensor implements Runnable {
 
-	public AarhusWeatherStream(String uri, String out, Integer port, Long freq, String txtFile, EventDeclaration ed, Date start,
-							   Date end, boolean useTimeStamp) throws IOException {
+	public AarhusWeatherStream(String uri, String out, Integer port, Long freq, String txtFile, EventDeclaration ed, Date start, Date end, boolean useTimeStamp) throws IOException {
 		super(uri, out, port, freq, txtFile, ed, start, end, useTimeStamp);
 	}
 
@@ -71,6 +70,7 @@ public class AarhusWeatherStream extends Sensor implements Runnable {
 				Resource observation = initObservation(wo, m, ed, s);
 
 				Property hasValue = m.createProperty(RDFFileManager.saoPrefix + "hasValue");
+                //System.out.println("====> s:"+s.toString());
 				if (s.contains("Temperature"))
 					observation.addLiteral(hasValue, ((WeatherObservation) wo).getTemperature());
 				else if (s.contains("Humidity"))

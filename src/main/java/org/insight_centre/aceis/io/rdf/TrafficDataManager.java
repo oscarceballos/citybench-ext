@@ -132,11 +132,13 @@ public class TrafficDataManager {
 			List<String> pollutionPayloads = new ArrayList<String>();
 			pollutionPayloads.add(RDFFileManager.ctPrefix + "API|" + foiId + "|" + RDFFileManager.defaultPrefix
 					+ "Property-" + UUID.randomUUID());
-			// pollutionPayloads.add(RDFFileManager.ctPrefix + "PM2_5|" + foiId + "|" + RDFFileManager.defaultPrefix
-			// + "Property-" + UUID.randomUUID());
-			// pollutionPayloads.add(RDFFileManager.ctPrefix + "PM10|" + foiId + "|" + RDFFileManager.defaultPrefix
-			// + "Property-" + UUID.randomUUID());
-			EventDeclaration pollutionSensor = new EventDeclaration(RDFFileManager.defaultPrefix + "pollutionData"
+			//++++++++++++++++++++++++++++++++++++++++
+			 //pollutionPayloads.add(RDFFileManager.ctPrefix + "PM2_5|" + foiId + "|" + RDFFileManager.defaultPrefix
+			 //+ "Property-" + UUID.randomUUID());
+			 //pollutionPayloads.add(RDFFileManager.ctPrefix + "PM10|" + foiId + "|" + RDFFileManager.defaultPrefix
+			 //+ "Property-" + UUID.randomUUID());
+            //++++++++++++++++++++++++++++++++++++++++
+			 EventDeclaration pollutionSensor = new EventDeclaration(RDFFileManager.defaultPrefix + "pollutionData"
 					+ tr.getReportId(), null, "air_pollution", null, pollutionPayloads, 5.0);
 			pollutionSensor.setFoi(foiStr);
 			pollutionSensor.setServiceId(pollutionSensor.getnodeId());

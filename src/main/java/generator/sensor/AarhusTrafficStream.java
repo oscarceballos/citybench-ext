@@ -71,7 +71,7 @@ public class AarhusTrafficStream extends Sensor implements Runnable {
 				String obId = data.getObId();
 				Resource observation = initObservation(data, m, ed, pStr);
 						m.createResource(RDFFileManager.defaultPrefix + obId + UUID.randomUUID());
-
+				//System.out.println("==========> pStr: "+pStr);
 				Property hasValue = m.createProperty(RDFFileManager.saoPrefix + "hasValue");
 				if (pStr.contains("AvgSpeed"))
 					observation.addLiteral(hasValue, ((AarhusTrafficObservation) data).getAverageSpeed());

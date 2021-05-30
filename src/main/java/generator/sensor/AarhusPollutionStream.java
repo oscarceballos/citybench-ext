@@ -75,6 +75,7 @@ public class AarhusPollutionStream extends Sensor implements Runnable {
 				Resource observation = initObservation(so, m, ed, s);
 
 				Property hasValue = m.createProperty(RDFFileManager.saoPrefix + "hasValue");
+				//System.out.println("====> s:"+s.toString());
 				observation.addLiteral(hasValue, ((PollutionObservation) so).getApi());
 			}
 		return m;
@@ -82,14 +83,15 @@ public class AarhusPollutionStream extends Sensor implements Runnable {
 
 	protected SensorObservation createObservation() {
 		try {
-			int ozone = Integer.parseInt(streamData.get("ozone")), particullate_matter = Integer.parseInt(streamData
-					.get("particullate_matter")), carbon_monoxide = Integer.parseInt(streamData.get("carbon_monoxide")), sulfure_dioxide = Integer
-					.parseInt(streamData.get("sulfure_dioxide")), nitrogen_dioxide = Integer.parseInt(streamData
-					.get("nitrogen_dioxide"));
+			int ozone = Integer.parseInt(streamData.get("ozone")),
+					particullate_matter = Integer.parseInt(streamData.get("particullate_matter")),
+                    carbon_monoxide = Integer.parseInt(streamData.get("carbon_monoxide")),
+                    sulfure_dioxide = Integer.parseInt(streamData.get("sulfure_dioxide")),
+                    nitrogen_dioxide = Integer.parseInt(streamData.get("nitrogen_dioxide"));
 			Date obTime = sdf.parse(streamData.get("timestamp"));
-			PollutionObservation po = new PollutionObservation(0.0, 0.0, 0.0, ozone, particullate_matter,
-					carbon_monoxide, sulfure_dioxide, nitrogen_dioxide, obTime);
+			PollutionObservation po = new PollutionObservation(0.0, 0.0, 0.0, ozone, particullate_matter, carbon_monoxide, sulfure_dioxide, nitrogen_dioxide, obTime);
 			po.setObId("AarhusPollutionObservation-" + (int) Math.random() * 10000);
+            //System.out.println("createObservation(): "+po.toString());
 			return po;
 		} catch (NumberFormatException | IOException | ParseException e) {
 			e.printStackTrace();

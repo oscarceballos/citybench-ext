@@ -33,8 +33,7 @@ public class Sensor {
     protected Long freq;
     protected Boolean useTimeStamp;
 
-    public Sensor(String uri, String out, Integer port, Long freq, String txtFile, EventDeclaration ed, Date start,
-                  Date end, Boolean useTimeStamp) throws IOException {
+    public Sensor(String uri, String out, Integer port, Long freq, String txtFile, EventDeclaration ed, Date start, Date end, Boolean useTimeStamp) throws IOException {
         streamData = new CsvReader(String.valueOf(txtFile));
         streamData.setTrimWhitespace(false);
         streamData.setDelimiter(',');
@@ -72,8 +71,7 @@ public class Sensor {
         observation.addProperty(com.hp.hpl.jena.vocabulary.RDF.type, m.createResource(RDFFileManager.ssnPrefix + "Observation"));
         Resource serviceID = m.createResource(ed.getServiceId());
         observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedBy"), serviceID);
-        observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedProperty"),
-                m.createResource(s.split("\\|")[2]));
+        observation.addProperty(m.createProperty(RDFFileManager.ssnPrefix + "observedProperty"), m.createResource(s.split("\\|")[2]));
         return observation;
     }
 
@@ -126,9 +124,4 @@ public class Sensor {
                 .replace("^^", '"'+"^^<").concat(">") : literalUri;
         return NodeFactory.createLiteral(literalUri);
     }
-
-
-
-
-
 }

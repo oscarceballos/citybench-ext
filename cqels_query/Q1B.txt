@@ -1,0 +1,23 @@
+
+# Q1: What is the average speed on each road of my planned journey?
+
+# Property: Average Speed
+
+SELECT ?obId1 ?v1 ?obId2 ?v2
+WHERE {
+	STREAM <http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData182955> [TRIPLES 300]
+	{
+		?obId1 a ?ob .
+		?obId1 <http://purl.oclc.org/NET/ssnx/ssn#observedProperty> <http://www.insight-centre.org/dataset/SampleEventService#Property-a6cd03be-ae1f-47d0-b24f-83f82ef93c4d> .
+		?obId1 <http://purl.oclc.org/NET/sao/hasValue> ?v1 .
+		?obId1 <http://purl.oclc.org/NET/ssnx/ssn#observedBy> <http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData182955> .
+	}
+
+	STREAM <http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505> [TRIPLES 300]
+	{
+		?obId2 a ?ob .
+		?obId2 <http://purl.oclc.org/NET/ssnx/ssn#observedProperty> <http://www.insight-centre.org/dataset/SampleEventService#Property-b54c9052-e54b-4e53-a264-d2c0f416731e> .
+		?obId2 <http://purl.oclc.org/NET/sao/hasValue> ?v2 .
+		?obId2 <http://purl.oclc.org/NET/ssnx/ssn#observedBy> <http://www.insight-centre.org/dataset/SampleEventService#AarhusTrafficData158505> .
+	}
+}

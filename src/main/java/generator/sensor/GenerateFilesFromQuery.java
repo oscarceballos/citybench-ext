@@ -25,8 +25,7 @@ public class GenerateFilesFromQuery {
 
         if(!strIsBlank(datasetPath) && !strIsBlank(streamsPath) && !strIsBlank(cqelsQueryPath)) {
             String query = loadQuery(cqelsQueryPath + "/" + parameters.get("query"));
-            boolean useTimeStamp = (parameters.containsKey("useTimeStamp")) ?
-                    (boolean) parameters.containsKey("useTimeStamp") : false;
+            boolean useTimeStamp = (parameters.containsKey("useTimeStamp")) ? (boolean) parameters.containsKey("useTimeStamp") : false;
 
             RDFFileManager.initializeCQELSContext(datasetPath, ReasonerRegistry.getRDFSReasoner());
             EventRepository er = RDFFileManager.buildRepoFromFile(0);

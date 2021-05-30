@@ -28,8 +28,7 @@ public class RunSensorsSocketsFromQuery {
         String query = loadQuery(cqelsQueryPath + "/" + parameters.get("query"));
         AtomicReference<Integer> port = new AtomicReference<>((parameters.containsKey("port")) ?
                 Integer.parseInt(parameters.get("port")) : 5555);
-        boolean useTimeStamp = parameters.containsKey("useTimeStamp") ?
-                (parameters.get("useTimeStamp").equals("true") ? true : false) : true;
+        boolean useTimeStamp = parameters.containsKey("useTimeStamp") ? (parameters.get("useTimeStamp").equals("true") ? true : false) : false;
         Long freq = (parameters.containsKey("freq")) ? Long.parseLong(parameters.get("freq")) : null;
 
         if(!strIsBlank(datasetPath) && !strIsBlank(streamsPath) && !strIsBlank(cqelsQueryPath)) {
@@ -38,8 +37,7 @@ public class RunSensorsSocketsFromQuery {
 
             getStreamURLsFromQuery(query).forEach(uri -> {
                 try {
-                    startDemon(er, uri, port.get(), streamsPath,  (freq!=null) ? freq : (long) (Math.random() * 5 + 1),
-                            useTimeStamp);
+                    startDemon(er, uri, port.get(), streamsPath,  (freq!=null) ? freq : (long) (Math.random() * 5 + 1), useTimeStamp);
                     port.getAndSet(port.get() + 1);
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -96,8 +94,7 @@ public class RunSensorsSocketsFromQuery {
         return results;
     }
 
-    private static List startDemonsFromStreamNames(EventRepository er, List<String> streamNames, Integer port,
-                                         String streams, Long freq, boolean useTimeStamp) throws Exception {
+    private static List startDemonsFromStreamNames(EventRepository er, List<String> streamNames, Integer port, String streams, Long freq, boolean useTimeStamp) throws Exception {
         Set<String> startedStreams = new HashSet<String>();
         List startedStreamObjects = new ArrayList();
         for (String sn : streamNames) {
@@ -114,8 +111,7 @@ public class RunSensorsSocketsFromQuery {
         return startedStreamObjects;
     }
 
-    private static Runnable startDemon(EventRepository er, String uri, Integer port,
-                                         String streams, Long freq, boolean useTimeStamp) throws Exception {
+    private static Runnable startDemon(EventRepository er, String uri, Integer port, String streams, Long freq, boolean useTimeStamp) throws Exception {
         String path = streams + "/" + uriToFileName(uri) + ".stream";
         return getRunnable(er, uri, port, path, freq, useTimeStamp);
     }
