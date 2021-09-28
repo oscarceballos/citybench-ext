@@ -3,5 +3,5 @@ CityBench [Ali et al., 2015] is an RSP benchmark based on smart city data and re
 
 The RDFStream2Flink offers the possibility of consuming data stream from a socket. In this sense, to carry out scalability tests of this library, it was necessary to extend CityBench to generate RDF streams through sockets. The generated streams have the format (<s, p, o>, t) where <s, p, o> is a triple and t is the temporary part of the stream. This repository is an extension that meets these requirements and it is called CityBench-Ext.
 
-## References
+### References
 Ali, M. I., Gao, F., and Mileo, A. (2015). Citybench: A configurable benchmark to evaluate rsp engines using smart city datasets. In Arenas, M., Corcho, O., Simperl, E., Strohmaier, M., d’Aquin, M., Srinivas, K., Groth, P., Dumontier, M., Heflin, J., Thirunarayan, K., and Staab, S., editors, The Semantic Web - ISWC 2015, pages 374–389, Cham. Springer International Publishing
